@@ -38,9 +38,7 @@ public class AdminServiceImpl implements AdminService {
 
 		admin.setPassword(password);
 
-		Admin updatedAdmin = adminRepository1.save(admin);
-
-		return updatedAdmin;
+		return admin;
 
 	}
 
